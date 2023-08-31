@@ -52,33 +52,57 @@ nav a {
 
 /*about me*/
 
-img {
-  border-radius: 50%;
-  margin-left: 25%;
+aside img {
+  display:block;
+ border-radius: 50%;
+ margin:auto;
+ max-width: 100%;
+
+}
+
+aside .image-container{
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+
 }
 aside{
-  flex:1;
+
   background-color: #b9c6ae;
-  padding: 20px;
-  margin-right: 10%;
+  padding: 10px;
+  width:20%
+  
+
 }
 
 aside h1 {
   text-align: center;
 }
 aside p{
-  text-align:left;
+  text-align:auto;
 }
 
 /*projects*/
 
+
+section img {
+
+  display:block;
+  margin:auto;
+  
+
+}
 .projects{
-  margin-right: 10%;
+  margin: auto;
+  width:70%
 }
 
 .projects h1{
 
 text-align: center;
+;
 }
 
 .item {
@@ -87,13 +111,19 @@ text-align: center;
   border-radius: 20px;
   padding: 10px;
   box-shadow: 10px 10px 5px #716969;
-  margin: 20px;
+  margin: 70px;
+  
+ 
 }
 
 .item header {
+  background-color: #b9c6ae;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:  30px;;
 }
 
 .item  p {
@@ -102,7 +132,9 @@ text-align: center;
 }
 
 .item  img {
-  width: 100%;
+  width: 95%;
+  height:fit-content;
+  hi
 }
 
 .item:hover{
